@@ -52,7 +52,7 @@
 
 ## const 
 
-     NOTE: const stands for constant therefore, variables cannot change or be reassigned like var and let
+    NOTE: const stands for constant therefore, variables cannot change or be reassigned like var and let
 
          EXAMPLE: 
              const name = 'John'
@@ -60,12 +60,12 @@
          CANNOT REASSIGN EXAMPLE: 
              name = 'Sara' --> console will scream at you and give you a Uncaught TypeError: Assignment to constant variable 
 
- NOTE: With const, you must assign a value, you cannot initalize with const
+    NOTE: With const, you must assign a value, you cannot initalize with const
 
          EXAMPLE: 
              const greeting; --> console will scream at you and give you a Uncaught SyntaxError: Missing initializer in const declaration.
 
- NOTE: you can manipulate const values if the are in an object but you cannot change the const's variable (person in this example)
+    NOTE: you can manipulate const values if the are in an object but you cannot change the const's variable (person in this example)
 
          EXAMPLE:    
              const person ={
@@ -82,13 +82,13 @@
              person.age = 32
              console.log(person) --> console outputs object {name: 'Sara', age: 32}
 
- NOTE: you can assign const a variable and create an array of values
+    NOTE: you can assign const a variable and create an array of values
 
          EXAMPLE:
              const numbers = [1,2,3,4,5]
              console.log(numbers) --> console outputs an array of numbers 
 
- NOTE: You can add a value to an array that has been assigned to a const variable by 'pushing' it
+    NOTE: You can add a value to an array that has been assigned to a const variable by 'pushing' it
 
          EXAMPLE: 
          const numbers = [1,2,3,4,5]
