@@ -1,6 +1,6 @@
 7. Variables - var, let & const Notes
 
-var
+## var
 
     NOTE: var and let allow variables to be reassigned, const doesn't allow that.
 
@@ -24,14 +24,14 @@ var
 
     NOTE: Typically programmers will initalize variables when using conditionals,such as an 'if statement' and wanting to say something is true equals an action / or else is false equals an action for a function (boolean)
 
-letters, numbers, _, $
+## letters, numbers, _, $
 
     NOTE: variables cannot start with a number
     NOTE: $ is typically used with jQuery
     NOTE: _ is typically used for private variables
     NOTE: letters are typically used to construct variables
 
-Multi word vars
+## Multi word vars
     NOTE: multi word vars are typically written in camelCase
 
         EXAMPLE: 
@@ -41,7 +41,7 @@ Multi word vars
             var firstname; --> AVOID USING! 
 
 
-let (works similarly to var but is newer in the ES6 update)
+## let (works similarly to var but is newer in the ES6 update)
 
         EXAMPLE:
             let name; --> initalizing variables (see line 49, name is assigned to 'John Doe' therefore it will not come out undefined)
@@ -50,7 +50,7 @@ let (works similarly to var but is newer in the ES6 update)
             name = 'Steve Smith'
             console.log(name) --> console will output Steve Smith
 
-const 
+## const 
 
      NOTE: const stands for constant therefore, variables cannot change or be reassigned like var and let
 
