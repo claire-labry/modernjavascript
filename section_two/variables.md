@@ -1,4 +1,4 @@
-7. Variables - var, let & const Notes
+# Variables - var, let & const Notes
 
 ## var
 
