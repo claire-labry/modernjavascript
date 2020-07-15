@@ -31,7 +31,7 @@
     NOTE: _ is typically used for private variables
     NOTE: letters are typically used to construct variables
 
-## Multi word vars
+## multi word vars
     NOTE: multi word vars are typically written in camelCase
 
         EXAMPLE: 
@@ -41,7 +41,9 @@
             var firstname; --> AVOID USING! 
 
 
-## let (works similarly to var but is newer in the ES6 update)
+## let 
+
+    NOTE: works similarly to var but is newer in the ES6 update
 
         EXAMPLE:
             let name; --> initalizing variables (see line 49, name is assigned to 'John Doe' therefore it will not come out undefined)
