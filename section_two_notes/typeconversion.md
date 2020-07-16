@@ -8,7 +8,7 @@
 
         val = 5; 
 
-#### output
+*output*
         console.log(val); --> console outputs 5
         console.log(typeof val); --> console outputs number
         console.log(val.length); --> console outputs undefined
@@ -22,7 +22,7 @@
         val = String(5); 
         console.log(val.length); --> console outputs 1 (number of characters)
 
-### string around an expression
+*string around an expression*
         val = String(4+4) --> console outputs 8 (in string format)
 
 ## CONVERTING A BOOLEAN TO A STRING
@@ -31,7 +31,7 @@
 
         val = String(true);
 
-#### output
+*output*
         console.log(val); --> console outputs true
         console.log(typeof val); --> console outputs string
         console.log(val.length); --> console outputs 4 (number of characters)
@@ -42,7 +42,7 @@
 
         val = String(new Date());
 
-#### output
+*output*
         console.log(val); --> console outputs Wed Jul 15 2020 18:22 (Central Standard Time)
         console.log(typeof val); --> console outputs string
         console.log(val.length); --> console outputs 44 (number of characters)
@@ -53,26 +53,26 @@
 
         val = String([1,2,3,4]);
 
-#### output
+*output*
         console.log(val); --> console outputs 1,2,3,4
         console.log(typeof val); --> console outputs string
         console.log(val.length); --> console outputs 7 (number of characters)
 
-### toString() Method
+*toString() Method*
     ** https://www.geeksforgeeks.org/javascript-tostring-function/ **
 
      EXAMPLE:        
         let val;
-#### number
+*number*
         val = (5).toString();
-#### boolean
+*boolean*
         val = (true).toString();
 
-#### output for number
+*output for number*
         console.log(val); --> console outputs 5 (in string format)
         console.log(typeof val); --> console outputs string
         console.log(val.length); --> console outputs 1 (number of characters)
-#### output for boolean
+*output for boolean*
         console.log(val); --> console outputs true (in string format)
         console.log(typeof val); --> console outputs string
         console.log(val.length); --> console outputs 4 (number of characters)
@@ -83,14 +83,14 @@
         let val;
 
         val = Number('5');
-#### output for number
+*output for number*
         console.log(val); --> console outputs 5 (in number format)
         console.log(typeof val); --> console outputs number
         console.log(val.toFixed()); --> console outputs 5 (number of decimals)
 
     NOTE: toFixed() method only works on numbers and if you put a number in the parameters, i.e. 2, the console's output would be 5.00 instead of 5. 
 
-### other ways of converting
+*other ways of converting*
 
     EXAMPLE: 
         let val;
@@ -102,7 +102,7 @@
         val = Number('hello') --> console outputs NaN
         val = Number ([1,2,3,4]) --> console outputs NaN
 
-### parseInt() Method
+*parseInt() Method*
     ** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt ** 
 
     EXAMPLE: 
@@ -113,7 +113,7 @@
 
     NOTE: with 100.30, parseInt() is just going to parse the number into an integer i.e. 100 
 
-### parseFloat() Method
+*parseFloat() Method*
     ** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat ** 
     
     EXAMPLE: 
@@ -144,7 +144,7 @@
         (with type coercion to a number (blue number in the console))
         const sum = Number (val1 + val2);
 
-#### output
+*output*
         console.log(sum) --> 11 (without type coercion)
         console.log(sum) --> 56 (with type coercion, in a string)
         console.log(sum) --> 56 (with type coercion, in a number)

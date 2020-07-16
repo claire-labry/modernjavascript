@@ -11,4 +11,4 @@ This repository contains all of my notes on how I understand Javascript to be an
 If you are learning about javascript and struggle to learn where the best place to start, I would highly suggest you check out the udemy course as it has helped me extensively. 
 
 
-__To become really good at anything, you have to practice and repeat, practice and repeat, until the technique becomes intuitive. Paulo Coelho__
+*To become really good at anything, you have to practice and repeat, practice and repeat, until the technique becomes intuitive. Paulo Coelho*

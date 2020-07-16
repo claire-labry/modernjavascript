@@ -18,38 +18,38 @@
 
 ## PRIMATIVE TYPES
 
-<!-- String -->
+*String*
 const name = 'John Doe'
 console.log(typeof name) --> outputs in the console what primative datatype name is = string
 
-<!-- Number -->
+*Number*
 const age = 45
 console.log(typeof age) --> outputs in the console what primative datatype name is = number
 
-<!-- Boolean -->
+*Boolean*
 const hasKids = true
 console.log(typeof hasKids) --> outputs in the console what primative datatype name is = boolean
 
-<!-- Null -->
+*Null*
 const car = null
 console.log(typeof car) --> outputs in the console what primative datatype name is = object (javascript 'bug')
 ** https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined ** 
 
-<!-- Undefined -->
+*Undefined*
 let test;
 console.log(typeof test) --> outputs in the console what primative datatype name is = undefined
 
-<!-- Symbol -->
+*Symbol*
 const sym = Symbol();
 console.log(typeof sym) --> outputs in the console what primative datatype name is = Symbol
 
 ## REFERENCE TYPES - Objects
 
-<!-- Array -->
+*Array*
 const hobbies = ['movies', 'music']
 console.log(typeof hobbies) --> outputs in the console what reference datatype name is = object
 
-<!-- Object Literals -->
+*Object Literals*
 const address ={
     city: 'Boston',
     state: 'MA'
