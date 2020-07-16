@@ -6,9 +6,10 @@ This course allows different levels of understanding of javascript, such as begi
 
 [Link to Udemy Course] (https://www.udemy.com/course/modern-javascript-from-the-beginning/)
 
-This repository contains all of my notes on how I understand Javascript to be and practicing the language in building javascript based applications. 
+This repository contains all of my notes on how I understand Javascript to be and practicing the language in building javascript based applications. Think of it as a journal of what I'm learning everyday and keeping myself accountable. 
 
-If you are learning about javascript and struggle to learn where the best place to start, I would highly suggest you check out the udemy course as it has helped me extensively. 
+If you are learning about javascript and struggle to learn where the best place to start, I would highly suggest you check out the udemy course as it has helped me extensively.
+
 
 
 *To become really good at anything, you have to practice and repeat, practice and repeat, until the technique becomes intuitive. Paulo Coelho*
