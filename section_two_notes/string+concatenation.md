@@ -124,4 +124,56 @@
 ## getting the last char
 
         EXAMPLE: 
-            val = firstName.charAt(firstName.length)
+            val = firstName.charAt(firstName.length - 1)
+
+            console.log(val) --> m 
+    NOTE: adding the -1 gets you the last value of the string since index starts at 0. 
+
+## substring()
+
+        EXAMPLE:
+            val = firstName.substring(0,4);
+
+            console.log(val) --> console outputs Will 
+    NOTE: substring() will get you the starting index (i.e. 0) to whatever index you will like to end at (i.e. 4) resulting to Will from William
+
+## slice()
+
+        EXAMPLE: 
+            val = firstName.slice(-3);
+            console.log(val) --> iam 
+    NOTE: gets the last three letters of William
+
+## split()
+
+        EXAMPLE: 
+            const str = 'Hello there my name is Claire';
+
+            val = str.split(' ')
+
+            console.log(val) --> outputs (6) ["Hello", "there", "my", "name", "is", "Claire"]
+
+        EXAMPLE:
+            const tags = 'web design,web development,programming'
+
+            val = tags.split(',') --> outputs (3) ["web design", "web development", "programming"]
+
+## replace()
+
+        EXAMPLE: 
+            val = str.replace('Claire', 'Ruan')
+
+            console.log(val) --> outputs Hello there my name is Ruan
+
+## includes()
+    NOTE: includes() helps with trying to find if a word is contained in a string by boolean(true or false)
+
+        EXAMPLE: 
+            val = str.includes('Hello')
+
+            console.log(val) --> true
+
+        EXAMPLE: 
+            val = str.includes('foo')
+
+            console.log(val) --> false
