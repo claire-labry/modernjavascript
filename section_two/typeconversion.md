@@ -1,9 +1,9 @@
 # type conversion 
 
-NOTE: taking a variable and changing the data type 
+    NOTE: taking a variable and changing the data type 
 
 ## CONVERTING A NUMBER TO A STRING
-
+    EXAMPLE: 
         let val;
 
         val = 5; 
@@ -26,7 +26,7 @@ NOTE: taking a variable and changing the data type
         val = String(4+4) --> console outputs 8 (in string format)
 
 ## CONVERTING A BOOLEAN TO A STRING
-
+    EXAMPLE: 
         let val;
 
         val = String(true);
@@ -37,7 +37,7 @@ NOTE: taking a variable and changing the data type
         console.log(val.length); --> console outputs 4 (number of characters)
 
 ## CONVERTING DATE TO STRING
-
+    EXAMPLE: 
         let val;
 
         val = String(new Date());
@@ -48,7 +48,7 @@ NOTE: taking a variable and changing the data type
         console.log(val.length); --> console outputs 44 (number of characters)
 
 ## CONVERTING AN ARRAY TO STRING
-
+    EXAMPLE: 
         let val;
 
         val = String([1,2,3,4]);
@@ -60,7 +60,8 @@ NOTE: taking a variable and changing the data type
 
 ### toString() Method
     ** https://www.geeksforgeeks.org/javascript-tostring-function/ **
-        
+
+     EXAMPLE:        
         let val;
 #### number
         val = (5).toString();
@@ -77,6 +78,8 @@ NOTE: taking a variable and changing the data type
         console.log(val.length); --> console outputs 4 (number of characters)
 
 ## CONVERTING A STRING TO A NUMBER
+
+    EXAMPLE: 
         let val;
 
         val = Number('5');
@@ -88,6 +91,8 @@ NOTE: taking a variable and changing the data type
     NOTE: toFixed() method only works on numbers and if you put a number in the parameters, i.e. 2, the console's output would be 5.00 instead of 5. 
 
 ### other ways of converting
+
+    EXAMPLE: 
         let val;
 
         val = Number('5'); --> console outputs 5 (in number format)
@@ -100,6 +105,7 @@ NOTE: taking a variable and changing the data type
 ### parseInt() Method
     ** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt ** 
 
+    EXAMPLE: 
         let val;
         
         val = parseInt('100') --> console outputs 100
@@ -109,7 +115,8 @@ NOTE: taking a variable and changing the data type
 
 ### parseFloat() Method
     ** https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat ** 
-        
+    
+    EXAMPLE: 
         let val; 
         
         val = parseFloat('100.30') --> console's output is 100.3
@@ -122,3 +129,23 @@ NOTE: taking a variable and changing the data type
     NOTE: Type coercion is the automatic conversion of values from one data type to another (i.e. strings to numbers)
     ** https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion ** 
 
+    EXAMPLE: 
+        (without type coercion)
+        const val1 = 5;
+        
+        (with type coercion)
+        const val1 = String(5)
+        
+        const val2 = 6;
+        
+        (without type coercion to a string(black number in the console))
+        const sum = val1 + val2;
+
+        (with type coercion to a number (blue number in the console))
+        const sum = Number (val1 + val2);
+
+#### output
+        console.log(sum) --> 11 (without type coercion)
+        console.log(sum) --> 56 (with type coercion, in a string)
+        console.log(sum) --> 56 (with type coercion, in a number)
+        console.log(typeof sum) --> number
