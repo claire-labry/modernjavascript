@@ -90,6 +90,7 @@
 
 ## logical operators
 
+### and &&
         EXAMPLE: 
             const name = 'Steve';
             const age = 20;
@@ -97,5 +98,23 @@
             if(age > 0 && age < 12){
                 console.log(`${name} is a child`)
             } else if(age >= 13 && <= 19){
-                
+                console.log(`${name} is a teenager`)
+            } else {
+                console.log(`${name} is an adult`)
+            } --> console outputs Steve is an adult. 
+    
+    NOTE: If you change Steve's age, the console will change based on what age he is. 
+
+### or || 
+        EXAMPLE: 
+            if( age < 16 || age > 65){
+                console.log(`${name} cannot run in race`)
+            } else {
+                console.log(`${name} is registered for the race`)
             }
+    NOTE: If you change Steve's age, the console will change based on what age he is and whether he can run in the race or not.
+
+### ternary operator
+        EXAMPLE: 
+            const id = 100;
+            console.log(id === 100 ? 'CORRECT' : 'INCORRECT') --> console's output is CORRECT.
